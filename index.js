@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // The target URL for the QR code
-const TARGET_URL = 'https://www.blankenshipdrygoods.com/';
+const TARGET_URL = 'https://linktr.ee/blankenshipdrygoods1';
 
 // The main endpoint to get the QR code image
 app.get('/qr', async (req, res) => {
