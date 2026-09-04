@@ -1,0 +1,17 @@
+{
+  "name": "bdg-qr-service",
+  "version": "1.0.0",
+  "description": "QR Code Generator for Blankenship Dry Goods",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
